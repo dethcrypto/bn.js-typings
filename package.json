@@ -1,5 +1,5 @@
 {
-  "name": "bn.js-types",
+  "name": "bn.js-typings",
   "repository": "git@github.com:ethereum-ts/bn.js-typings.git",
   "types": "./index.d.ts",
   "version": "1.0.1",
