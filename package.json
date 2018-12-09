@@ -2,7 +2,7 @@
   "name": "bn.js-types",
   "repository": "git@github.com:ethereum-ts/bn.js-typings.git",
   "types": "./index.d.ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Krzysztof Kaczor <chris@kaczor.io>",
   "license": "MIT",
   "dependencies": {
