@@ -9,6 +9,21 @@
     "@types/node": "^10.12.12"
   },
   "files": [
-    "index.d.ts"
-  ]
+    "typings/bn.js/index.d.ts"
+  ],
+  "main": "typings/bn.js/index.d.ts",
+  "devDependencies": {
+    "@types/tape": "^4.2.32",
+    "bn.js": "^4.11.8",
+    "tape": "^4.9.1",
+    "ts-node": "^7.0.1",
+    "tsconfig-paths": "^3.7.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.2"
+  },
+  "scripts": {
+    "lint": "tslint '{,!(node_modules)/**/}*.{ts}'",
+    "test": "tape -r ts-node/register -r tsconfig-paths/register 'test/**/*.ts'",
+    "pretest": "yarn run lint"
+  }
 }
